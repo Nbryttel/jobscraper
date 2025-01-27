@@ -1,4 +1,4 @@
-# Jobscrapper SQL Database Schema and Python Automation
+# Jobscraper SQL Database Schema and Python Automation
 
 This repository contains SQL and Python scripts for a comprehensive Job Scraping and Analysis Database Schema. It is designed to facilitate job market analysis by storing scraped job offers and their metadata in a structured, scalable, and normalized manner. The integration of Python ensures seamless automation of scraping, processing, and data management.
 
@@ -188,12 +188,12 @@ The next steps of the project will focus on addressing these challenges and expa
 
 ## How to Use
 1. Clone the repository.
-2. Open the SQL script [Taxdatabase Script](./database_script) in your preferred SQL environment, such as:
+2. Open the SQL script [Jobscraper Script](./database_script.sql) in your preferred SQL environment, such as:
 - Azure Data Studio
 - SQL Server Management Studio (SSMS)
 3. Execute the scripts to:
 - Create the database schema: Set up all tables, constraints, and relationships.
-- Populate the tables with sample data (you can use: seed_data_taxdatabase.sql)
+- Populate the tables with sample data (you can use: [Jobscraper Seed Data Example](./seed_data.sql)))
 4. Analyze the data:
 - Use the provided SQL queries (above: "Sample Query 2") or write your own to:
 - Retrieve insights (e.g., travel expenses by month).
@@ -201,7 +201,7 @@ The next steps of the project will focus on addressing these challenges and expa
 
 Clone this repository:
    ```bash
-   git clone https://github.com/Nbryttel/sql_taxdatabase.git
+   git clone https://github.com/Nbryttel/jobscraper.git
  ```
 
 
