@@ -36,7 +36,9 @@ I was able to mentor while simultaneously strengthening my skills in explaining 
 ## Project Architecture:
 Below, you can view the Lucidchart diagram showcasing the database architecture designed for this project. It includes all the key components, such as dimension tables, fact tables, and bridge tables, with clear relationships defined by primary keys, foreign keys, and unique constraints. This visual representation provides a comprehensive understanding of how the database is structured to support efficient storage and analysis of job-related data.
 
-https://lucid.app/lucidchart/23548554-d554-458b-bcdc-b64a75e6f6d1/edit?view_items=9iOKfjLxwtWA%2CM~GKXvnHVtXE%2CDlhLRV5Fs3Kt%2Cl5IKgIkZs3cH%2CjTHK8MojNBBm%2CuUHKsLx~o_Wp%2ClWHKn6RymxpA%2Co5IKuVQ7Bd8p%2CTGHKV3CCSJIa%2CkVHK7yeMdTGB%2CmGHKPG26WWlH%2CKUIKjeSAhcc_%2CPeJKKE1cZRc~%2C_WIKpoUDBAKw%2CzZIKsYX-KC3q%2C1YIKLZNVSp.F%2CdYIKrU4OFsTq%2CneJKTc_jmkmD%2C1LIKNy-Vl67d%2C5ZhLaRyQcYl_%2C8B6Ky0Pa_2nD%2CzH6K8LhvG0b9%2C_YLKh~9cLoel%2CwZLKmhelfc-V%2C5ZLKCDvPkw~v%2Cu0LK685oh3.B%2C0VLKKYpOfOpT%2CHjJKX-kPboHT%2CajJKVDBhjfv2%2CoNIK3~hyv~70%2CaOIKQWO4asFp%2CxFhLbaoLm0kp%2CmKLKbVdnR4d0&invitationId=inv_c65f0804-7832-4ea1-a0da-ad4c43f9d72f
+[View the Lucidchart Diagram](https://example.com/lucidchart-diagram)
+
+<img width="1770" alt="Screenshot 2025-01-27 at 14 55 15" src="https://github.com/user-attachments/assets/0985762e-ea94-4abd-9c84-52e59ed0da98" />
 
 
 ## Guidance and Practical Learning
