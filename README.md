@@ -193,7 +193,7 @@ The next steps of the project will focus on addressing these challenges and expa
 - SQL Server Management Studio (SSMS)
 3. Execute the scripts to:
 - Create the database schema: Set up all tables, constraints, and relationships.
-- Populate the tables with sample data (you can use: [Jobscraper Seed Data Example](./seed_data.sql)))
+- Populate the tables with sample data (you can use: [Jobscraper Seed Data Example](./seed_data.sql))
 4. Analyze the data:
 - Use the provided SQL queries (above: "Sample Query 2") or write your own to:
 - Retrieve insights (e.g., travel expenses by month).
