@@ -8,7 +8,7 @@ It became an excellent learning opportunity for her to explore SQL, database man
 
 I was able to mentor while simultaneously strengthening my skills in explaining complex topics, answering her questions, and leading her through the entire project. This project is therefore not only a functional system for job scraping and analysis but also a practical example for anyone new to database design and Python automation.
 
-![scrapper1](https://github.com/user-attachments/assets/18b67da9-8514-4af8-8e35-4e79733e19d1)
+![scrapper4](https://github.com/user-attachments/assets/98dac9a1-0580-4097-b847-f18ca2b517ac)
 
 
 
