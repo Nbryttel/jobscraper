@@ -82,6 +82,58 @@ The Lucidchart document includes:
 - Application Tracking: Track job applications with statuses like "Pending," "Submitted," or "Accepted."
 - Job Categories: Dynamically categorize jobs based on titles and keywords for easier filtering and analysis.
 
+### Sample SQL Script 1
+```sql
+CREATE TABLE dbo.DimBuzzwords (
+    BuzzwordID INT PRIMARY KEY IDENTITY(1,1), -- Auto-generated identifier
+    Buzzword NVARCHAR(255) NOT NULL -- The buzzword or concept
+);
+
+
+CREATE TABLE dbo.DimLanguages (
+    LanguageID INT PRIMARY KEY IDENTITY(1,1),
+    Language NVARCHAR(100) NOT NULL
+);
+```
+### Sample SQL Script 2
+```sql
+-- Correct DetectLanguage Function
+CREATE FUNCTION dbo.DetectLanguage (@JobDescription NVARCHAR(MAX))
+RETURNS NVARCHAR(100)
+AS
+BEGIN
+    DECLARE @Language NVARCHAR(100);
+
+    IF @JobDescription IS NULL OR LTRIM(RTRIM(@JobDescription)) = ''
+        SET @Language = 'Unknown';
+    ELSE IF @JobDescription LIKE '%you%' OR @JobDescription LIKE '%we%'
+        SET @Language = 'English';
+    ELSE IF @JobDescription LIKE '%pracę%' OR @JobDescription LIKE '%praca%'
+        SET @Language = 'Polish';
+    ELSE IF @JobDescription LIKE '%wir%' OR @JobDescription LIKE '%du%'
+        SET @Language = 'German';
+    ELSE
+        SET @Language = 'Unknown';
+
+    RETURN @Language;
+END;
+
+ALTER TABLE dbo.JobOffers
+ADD DetectedLanguage NVARCHAR(100); --added language column
+```
+
+
+-- Correct trg_DetectLanguage Trigger
+CREATE TRIGGER trg_DetectLanguage
+ON dbo.JobOffers
+AFTER INSERT
+AS
+BEGIN
+    UPDATE dbo.JobOffers
+    SET DetectedLanguage = dbo.DetectLanguage(inserted.JobDescription)
+    FROM dbo.JobOffers
+    INNER JOIN inserted ON dbo.JobOffers.JobOfferID = inserted.JobOfferID;
+END;
 ## Python Integration 
 Python played a crucial role in automating the data scraping and processing workflows for this project. Using tools like Selenium and BeautifulSoup, the script dynamically interacted with job platforms such as LinkedIn to extract detailed job postings, even from JavaScript-rendered pages. Python handled everything from parsing job titles, descriptions, locations, and company names to detecting the language of the job description using a custom keyword-based detection algorithm. Once scraped, the data was processed, cleaned, and inserted into the SQL database via libraries like pyodbc. Additionally, Python scripts were used to extract relevant insights from the database, export data to Excel for further use, and automate workflows to ensure the system remained up-to-date with new job postings. This seamless integration of Python ensured efficient data collection, preparation, and usability for further analysis.
 
