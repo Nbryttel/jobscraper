@@ -81,5 +81,6 @@ The Lucidchart document includes:
 
 ## Python Integration 
 Python played a crucial role in automating the data scraping and processing workflows for this project. Using tools like Selenium and BeautifulSoup, the script dynamically interacted with job platforms such as LinkedIn to extract detailed job postings, even from JavaScript-rendered pages. Python handled everything from parsing job titles, descriptions, locations, and company names to detecting the language of the job description using a custom keyword-based detection algorithm. Once scraped, the data was processed, cleaned, and inserted into the SQL database via libraries like pyodbc. Additionally, Python scripts were used to extract relevant insights from the database, export data to Excel for further use, and automate workflows to ensure the system remained up-to-date with new job postings. This seamless integration of Python ensured efficient data collection, preparation, and usability for further analysis.
+<img width="1397" alt="Screenshot 2025-01-27 at 15 00 44" src="https://github.com/user-attachments/assets/8a11eb90-273f-46a2-8ea1-42164b4d7e70" />
 
 
