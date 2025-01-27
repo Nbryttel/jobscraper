@@ -177,3 +177,10 @@ driver.get(url)
 # Wait for JavaScript content to load
 time.sleep(5)  # Adjust based on your network speed
 ```
+## Future Development and Authentication with LinkedIn
+Currently, the data is scraped from LinkedIn without logging into an account. This raised concerns about whether Python could reliably scrape additional job postings and handle pagination or advanced search features. The next phase of the project involves further testing and implementing authentication with LinkedIn to access more job data available to logged-in users. This will require modifying the existing codebase to handle the logged-in version of LinkedIn, ensuring the scraper can navigate and extract data from authenticated sessions.
+
+The next steps of the project will focus on addressing these challenges and expanding the scraper's functionality for enhanced reliability and data coverage. Stay tuned for updates as the project evolves!
+<img width="1137" alt="Screenshot 2025-01-27 at 15 34 57" src="https://github.com/user-attachments/assets/dd5c4bcc-de5a-4416-a897-9d6e558d3c91" />
+
+
