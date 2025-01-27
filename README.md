@@ -10,7 +10,7 @@ I was able to mentor while simultaneously strengthening my skills in explaining 
 
 ![scrapper4](https://github.com/user-attachments/assets/98dac9a1-0580-4097-b847-f18ca2b517ac)
 
-
+![scrapper5](https://github.com/user-attachments/assets/09a18a73-fafd-4706-8c43-261ba21ca4ff)
 
 ## Tools used:
 - SQL Server on Azure: For hosting and managing the job scraping database.
