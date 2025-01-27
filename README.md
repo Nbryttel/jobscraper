@@ -8,7 +8,8 @@ It became an excellent learning opportunity for her to explore SQL, database man
 
 I was able to mentor while simultaneously strengthening my skills in explaining complex topics, answering her questions, and leading her through the entire project. This project is therefore not only a functional system for job scraping and analysis but also a practical example for anyone new to database design and Python automation.
 
-<img width="1397" alt="Screenshot 2025-01-27 at 15 00 44" src="https://github.com/user-attachments/assets/20404a67-8969-4f2e-aec9-7e81486e2123" />
+![scrapper1](https://github.com/user-attachments/assets/18b67da9-8514-4af8-8e35-4e79733e19d1)
+
 
 
 ## Tools used:
@@ -41,7 +42,8 @@ Below, you can view the Lucidchart diagram showcasing the database architecture 
 
 [View the Lucidchart Diagram](https://example.com/lucidchart-diagram)
 
-<img width="1770" alt="Screenshot 2025-01-27 at 14 55 15" src="https://github.com/user-attachments/assets/0985762e-ea94-4abd-9c84-52e59ed0da98" />
+![scrapper3](https://github.com/user-attachments/assets/cf7d8f76-e835-4057-ad9f-8f8c3179f04f)
+
 
 
 ## Guidance and Practical Learning
@@ -181,6 +183,7 @@ time.sleep(5)  # Adjust based on your network speed
 Currently, the data is scraped from LinkedIn without logging into an account. This raised concerns about whether Python could reliably scrape additional job postings and handle pagination or advanced search features. The next phase of the project involves further testing and implementing authentication with LinkedIn to access more job data available to logged-in users. This will require modifying the existing codebase to handle the logged-in version of LinkedIn, ensuring the scraper can navigate and extract data from authenticated sessions.
 
 The next steps of the project will focus on addressing these challenges and expanding the scraper's functionality for enhanced reliability and data coverage. Stay tuned for updates as the project evolves!
-<img width="1137" alt="Screenshot 2025-01-27 at 15 34 57" src="https://github.com/user-attachments/assets/dd5c4bcc-de5a-4416-a897-9d6e558d3c91" />
+
+![scrapper2](https://github.com/user-attachments/assets/afcdb332-cd8e-4d5c-bda2-a4deb6a79d14)
 
 
