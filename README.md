@@ -1,4 +1,4 @@
-# Jobscrapper Database Schema and Automation
+# Jobscrapper SQL Database Schema and Python Automation
 
 This repository contains SQL and Python scripts for a comprehensive Job Scraping and Analysis Database Schema. It is designed to facilitate job market analysis by storing scraped job offers and their metadata in a structured, scalable, and normalized manner. The integration of Python ensures seamless automation of scraping, processing, and data management.
 
