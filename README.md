@@ -186,4 +186,25 @@ The next steps of the project will focus on addressing these challenges and expa
 
 ![scrapper2](https://github.com/user-attachments/assets/afcdb332-cd8e-4d5c-bda2-a4deb6a79d14)
 
+## How to Use
+1. Clone the repository.
+2. Open the SQL script [Taxdatabase Script](./database_script) in your preferred SQL environment, such as:
+- Azure Data Studio
+- SQL Server Management Studio (SSMS)
+3. Execute the scripts to:
+- Create the database schema: Set up all tables, constraints, and relationships.
+- Populate the tables with sample data (you can use: seed_data_taxdatabase.sql)
+4. Analyze the data:
+- Use the provided SQL queries (above: "Sample Query 2") or write your own to:
+- Retrieve insights (e.g., travel expenses by month).
+- Perform advanced analysis for reporting purposes.
+
+Clone this repository:
+   ```bash
+   git clone https://github.com/Nbryttel/sql_taxdatabase.git
+ ```
+
+
+
+
 
