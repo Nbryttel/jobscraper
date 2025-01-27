@@ -120,7 +120,6 @@ END;
 
 ALTER TABLE dbo.JobOffers
 ADD DetectedLanguage NVARCHAR(100); --added language column
-```
 
 
 -- Correct trg_DetectLanguage Trigger
@@ -134,8 +133,47 @@ BEGIN
     FROM dbo.JobOffers
     INNER JOIN inserted ON dbo.JobOffers.JobOfferID = inserted.JobOfferID;
 END;
+```
+## Testing SQL Database
+### Seed Data Example
+To populate the database with initial data for testing, you can use the following SQL scripts. These scripts insert sample data into the dimension and source tables to simulate a real-world scenario.
+```sql
+INSERT INTO dbo.DimWorkHours (WorkHourType)
+VALUES
+('Vollzeit'),
+('Teilzeit'),
+('Schichtarbeit'),
+('Flexible Arbeitszeiten'),
+('Freiberufliche Arbeitszeiten'),
+('Projektbezogene Arbeitszeiten'),
+('Full-time'),
+('Part-time'),
+('Shift work'),
+('Flexible hours'),
+('Freelance hours'),
+('Project-based hours');
+```
 ## Python Integration 
-Python played a crucial role in automating the data scraping and processing workflows for this project. Using tools like Selenium and BeautifulSoup, the script dynamically interacted with job platforms such as LinkedIn to extract detailed job postings, even from JavaScript-rendered pages. Python handled everything from parsing job titles, descriptions, locations, and company names to detecting the language of the job description using a custom keyword-based detection algorithm. Once scraped, the data was processed, cleaned, and inserted into the SQL database via libraries like pyodbc. Additionally, Python scripts were used to extract relevant insights from the database, export data to Excel for further use, and automate workflows to ensure the system remained up-to-date with new job postings. This seamless integration of Python ensured efficient data collection, preparation, and usability for further analysis.
+Python played a crucial role in automating the data scraping and processing workflows for this project. Using tools like Selenium and BeautifulSoup, the script dynamically interacted with job platforms such as LinkedIn to extract detailed job postings, even from JavaScript-rendered pages. Python handled everything from parsing job titles, descriptions, locations, and company names to detecting the language of the job description using a custom keyword-based detection algorithm. Once scraped, the data was processed, cleaned, and inserted into the SQL database via libraries like pyodbc. Additionally, Python scripts were used to extract relevant insights from the database, export data to Excel for further use, and automate workflows to ensure the system remained up-to-date with new job postings. This seamless integration of Python ensured efficient data collection, preparation, and usability for further analysis
 
 
+```python
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from bs4 import BeautifulSoup
+import time
 
+# Set up Selenium WebDriver with the correct path to ChromeDriver
+service = Service("/usr/local/bin/chromedriver")  # Replace with your correct path
+driver = webdriver.Chrome(service=service)
+
+# Target URL
+url = "https://www.linkedin.com/jobs/view/4093031873"  # Replace with the LinkedIn job link
+driver.get(url)
+
+# Wait for JavaScript content to load
+time.sleep(5)  # Adjust based on your network speed
+```
