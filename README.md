@@ -8,6 +8,9 @@ It became an excellent learning opportunity for her to explore SQL, database man
 
 I was able to mentor while simultaneously strengthening my skills in explaining complex topics, answering her questions, and leading her through the entire project. This project is therefore not only a functional system for job scraping and analysis but also a practical example for anyone new to database design and Python automation.
 
+<img width="1397" alt="Screenshot 2025-01-27 at 15 00 44" src="https://github.com/user-attachments/assets/20404a67-8969-4f2e-aec9-7e81486e2123" />
+
+
 ## Tools used:
 - SQL Server on Azure: For hosting and managing the job scraping database.
 - Azure Data Studio: For query development, database management, and data exploration.
@@ -81,6 +84,6 @@ The Lucidchart document includes:
 
 ## Python Integration 
 Python played a crucial role in automating the data scraping and processing workflows for this project. Using tools like Selenium and BeautifulSoup, the script dynamically interacted with job platforms such as LinkedIn to extract detailed job postings, even from JavaScript-rendered pages. Python handled everything from parsing job titles, descriptions, locations, and company names to detecting the language of the job description using a custom keyword-based detection algorithm. Once scraped, the data was processed, cleaned, and inserted into the SQL database via libraries like pyodbc. Additionally, Python scripts were used to extract relevant insights from the database, export data to Excel for further use, and automate workflows to ensure the system remained up-to-date with new job postings. This seamless integration of Python ensured efficient data collection, preparation, and usability for further analysis.
-<img width="1397" alt="Screenshot 2025-01-27 at 15 00 44" src="https://github.com/user-attachments/assets/8a11eb90-273f-46a2-8ea1-42164b4d7e70" />
+
 
 
