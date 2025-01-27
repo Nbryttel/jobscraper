@@ -1,4 +1,4 @@
-# Jobscraper SQL Database Schema and Python Automation
+# Jobscraper (Web-Scraper): SQL Database Schema and Python Automation
 
 This repository contains SQL and Python scripts for a comprehensive Job Scraping and Analysis Database Schema. It is designed to facilitate job market analysis by storing scraped job offers and their metadata in a structured, scalable, and normalized manner. The integration of Python ensures seamless automation of scraping, processing, and data management.
 
@@ -201,7 +201,7 @@ The next steps of the project will focus on addressing these challenges and expa
 
 Clone this repository:
    ```bash
-   git clone https://github.com/Nbryttel/jobscraper.git
+   git clone https://github.com/Nbryttel/python-sql-web_scraper.git
  ```
 
 
