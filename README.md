@@ -13,29 +13,29 @@ I was able to mentor while simultaneously strengthening my skills in explaining 
 ![scrapper5](https://github.com/user-attachments/assets/09a18a73-fafd-4706-8c43-261ba21ca4ff)
 
 ## Tools used:
-- SQL Server on Azure: For hosting and managing the job scraping database.
-- Azure Data Studio: For query development, database management, and data exploration.
-- Visual Studio Code (VS Code): For developing Python scripts with an enhanced coding experience and extensions.
-- Python: For automating job data scraping, processing, and database interaction.
-- Lucidchart: For designing the database schema and visualizing entity relationships.
-- Excel: For exporting and sharing analyzed job data.
+✅ SQL Server on Azure: For hosting and managing the job scraping database.
+✅ Azure Data Studio: For query development, database management, and data exploration.
+✅ Visual Studio Code (VS Code): For developing Python scripts with an enhanced coding experience and extensions.
+✅ Python: For automating job data scraping, processing, and database interaction.
+✅ Lucidchart: For designing the database schema and visualizing entity relationships.
+✅ Excel: For exporting and sharing analyzed job data.
 
 ## As part of this project, the following skills were applied:
 
-1. Database Design and Data Modeling:
+1️⃣ Database Design and Data Modeling:
 - Designed a normalized relational database schema optimized for storing and analyzing job-related data.
 - Defined clear relationships between tables using primary keys, foreign keys, and unique constraints.
 
-2. Data Automation and Wrangling:
+2️⃣ Data Automation and Wrangling:
 - Developed Python scripts in Visual Studio Code to automate the scraping of job postings from platforms like LinkedIn and Indeed.
 - Wrote SQL queries to clean, transform, and prepare data for analysis.
 - Automated workflows for regular updates and data integrity checks.
 
-3. Data Analysis and Reporting:
+3️⃣ Data Analysis and Reporting:
 - Analyzed job market trends, such as in-demand skills, industries, and salary ranges.
 - Used SQL and Python to extract meaningful insights from the data.
 
-4. Mentoring and Knowledge Sharing.
+4️⃣ Mentoring and Knowledge Sharing.
 
 ## Project Architecture:
 Below, you can view the Lucidchart diagram showcasing the database architecture designed for this project. It includes all the key components, such as dimension tables, fact tables, and bridge tables, with clear relationships defined by primary keys, foreign keys, and unique constraints. This visual representation provides a comprehensive understanding of how the database is structured to support efficient storage and analysis of job-related data.
