@@ -13,12 +13,12 @@ I was able to mentor while simultaneously strengthening my skills in explaining 
 ![scrapper5](https://github.com/user-attachments/assets/09a18a73-fafd-4706-8c43-261ba21ca4ff)
 
 ## Tools used:
-✅ SQL Server on Azure: For hosting and managing the job scraping database.
-✅ Azure Data Studio: For query development, database management, and data exploration.
-✅ Visual Studio Code (VS Code): For developing Python scripts with an enhanced coding experience and extensions.
-✅ Python: For automating job data scraping, processing, and database interaction.
-✅ Lucidchart: For designing the database schema and visualizing entity relationships.
-✅ Excel: For exporting and sharing analyzed job data.
+- SQL Server on Azure: For hosting and managing the job scraping database.
+-  Azure Data Studio: For query development, database management, and data exploration.
+- Visual Studio Code (VS Code): For developing Python scripts with an enhanced coding experience and extensions.
+- Python: For automating job data scraping, processing, and database interaction.
+- Lucidchart: For designing the database schema and visualizing entity relationships.
+- Excel: For exporting and sharing analyzed job data.
 
 ## As part of this project, the following skills were applied:
 
